@@ -1,3 +1,7 @@
+# LoRaWAN (Go) RIV custom
+
+This is a fork project for [RIV](https://www.reachxm.com/) custom edition.    
+All change base in f359b50 and are in `v1.0.1-riv-custom` branch
 # LoRaWAN (Go)
 
 [![Build Status](https://travis-ci.org/brocaar/lorawan.svg?branch=master)](https://travis-ci.org/brocaar/lorawan)
