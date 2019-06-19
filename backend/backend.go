@@ -501,6 +501,8 @@ type DeviceProfile struct {
 	SupportsJoin       bool        `json:"SupportsJoin" db:"supports_join"`
 	RFRegion           RFRegion    `json:"RFRegion" db:"rf_region"`
 	Supports32bitFCnt  bool        `json:"Supports32bitFCnt" db:"supports_32bit_fcnt"`
+	RetryConfirmed     bool        `json:"RetryConfirmed" db:"retry_confirmed"`
+	RetryTime          uint32      `json:"RetryTime" db:"retry_time"`
 }
 
 // RoutingProfile includes information that are needed by the NS for setting
